@@ -1,4 +1,4 @@
-package main
+package helloWorld
 
 import (
 	"fmt"
@@ -6,4 +6,5 @@ import (
 
 func main() {
 	fmt.Println("Hello, playground")
+
 }
