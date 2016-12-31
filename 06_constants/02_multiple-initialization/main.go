@@ -8,6 +8,9 @@ const (
 )
 
 func main() {
+
 	fmt.Println(pi)
 	fmt.Println(language)
+	fmt.Printf("%T \n", pi)
+	fmt.Printf("%T \n", language)
 }
