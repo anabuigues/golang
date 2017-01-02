@@ -2,12 +2,6 @@ package main
 
 import "fmt"
 
-const ( // iota is reset to 0
-	c0 = 0  // c0 == 0
-	c1 = 1  // c1 == 1
-	c2 = 2  // c2 == 2
-)
-
 func main() {
 	x := 13 % 3
 	fmt.Println(x)
