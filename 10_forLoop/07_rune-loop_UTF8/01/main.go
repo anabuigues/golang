@@ -9,6 +9,11 @@ func main() {
 	foo := "a"
 	fmt.Println(foo)
 	fmt.Printf("%T \n", foo)
+
+	voo := 'a'
+	fmt.Println(voo)
+	fmt.Printf("%T \n", voo)
+	fmt.Println(rune(voo))
 }
 
 /*
